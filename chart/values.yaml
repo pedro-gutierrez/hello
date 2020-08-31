@@ -1,0 +1,5 @@
+tag: latest
+
+api:
+  image: pedrogutierrez/hello
+  replicaCount: 1
