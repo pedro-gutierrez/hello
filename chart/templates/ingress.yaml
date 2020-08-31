@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   name: api
   annotations:
+    dev.okteto.com/auto-ingress: "true"
     dev.okteto.com/generate-host: "true"
 spec:
   rules:
